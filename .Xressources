@@ -1,0 +1,74 @@
+! Molokai theme
+
+!*faceName: DejaVu Sans Mono:style=Book:antialias=false:size=10
+
+
+*xterm*background: #101010
+*xterm*foreground: #00ff00
+*xterm*cursorColor: #00ff00
+*xterm*color0: #101010
+*xterm*color1: #960050
+*xterm*color2: #66aa11
+*xterm*color3: #c47f2c
+*xterm*color4: #30309b
+*xterm*color5: #7e40a5
+*xterm*color6: #3579a8
+*xterm*color7: #9999aa
+*xterm*color8: #303030
+*xterm*color9: #ff0090
+*xterm*color10: #80ff00
+*xterm*color11: #ffba68
+*xterm*color12: #5f5fee
+*xterm*color13: #bb88dd
+*xterm*color14: #4eb4fa
+*xterm*color15: #d0d0d0
+
+
+
+! URxvt.font:     xft:bitstream vera sans mono:size=8:antialias=true
+! URxvt.boldFont: xft:bitstream vera sans mono:bold:size=8:antialias=true
+!*.font: 	xft:ubuntu mono:style=Regular:size=10:antialias=true
+!*.boldFont:	xft:ubuntu mono:style=Bold:size=10:antialias=true
+
+!*.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
+urxvt*font: xft:DejaVu Sans Mono:size=8
+
+*.scrollBar: false
+
+! special
+!*.foreground:   #4def24
+*.foreground:   #FFFFFF
+*.background:   #000000
+*.cursorColor:  #f8f8f2
+
+! black
+*.color0:       #272822
+*.color8:       #75715e
+
+! red
+*.color1:       #f92672
+*.color9:       #f92672
+
+! green
+*.color2:       #a6e22e
+*.color10:      #a6e22e
+
+! yellow
+*.color3:		#ff9e26
+*.color11:      #ff9e26
+
+! blue
+*.color4:       #2e40fb
+*.color12:      #2e40fb
+
+! magenta
+*.color5:       #ae81ff
+*.color13:      #ae81ff
+
+! cyan
+*.color6:       #a1a1ef
+*.color14:      #a1a1ef
+
+! white
+*.color7:       #f8f8f2
+*.color15:      #f9f8f5
