@@ -20,8 +20,10 @@ syntax on
 
 "colorscheme 256-jungle
 colorscheme molokai
+highlight LineNr term=bold cterm=none ctermfg=DarkGrey ctermbg=none gui=none guifg=DarkGrey guibg=none
 
 set tabstop=4
+set number
 set incsearch
 set hlsearch
 set ignorecase
