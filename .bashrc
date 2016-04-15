@@ -5,11 +5,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PATH=$PATH:$HOME/bin
-export PATH
+set -o vi
 
-PS1='\e[0;32m[\u@\h \W]\$\e[m '
-export PS1
+export PATH=$PATH:$HOME/bin
+export PS1='\e[0;32m[\u@\h \W]\$\e[m '
+export EDITOR=/bin/vim
 
 umask 027
 
@@ -20,7 +20,9 @@ alias fgrep='fgrep --color=auto'
 alias ls='ls --color=auto'
 alias mv='mv -i'
 alias rm='rm -I'
+alias top='htop'
 alias torrent='transmission-remote'
+alias vim='vim -p'
 alias wget='wget -c'
 
 complete -cf sudo
