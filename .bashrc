@@ -27,3 +27,7 @@ alias wget='wget -c'
 
 complete -cf sudo
 complete -cf man
+
+function vol {
+	amixer set Master ${1}0% > /dev/null 
+}
