@@ -13,7 +13,7 @@ export EDITOR=/bin/vim
 
 umask 027
 
-alias grep='grep --color=auto'
+alias grep='grep -E --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
