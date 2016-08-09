@@ -3,25 +3,25 @@
 !*faceName: DejaVu Sans Mono:style=Book:antialias=false:size=10
 
 
-*xterm*background: #101010
-*xterm*foreground: #00ff00
-*xterm*cursorColor: #00ff00
-*xterm*color0: #101010
-*xterm*color1: #960050
-*xterm*color2: #66aa11
-*xterm*color3: #c47f2c
-*xterm*color4: #30309b
-*xterm*color5: #7e40a5
-*xterm*color6: #3579a8
-*xterm*color7: #9999aa
-*xterm*color8: #303030
-*xterm*color9: #ff0090
-*xterm*color10: #80ff00
-*xterm*color11: #ffba68
-*xterm*color12: #5f5fee
-*xterm*color13: #bb88dd
-*xterm*color14: #4eb4fa
-*xterm*color15: #d0d0d0
+!*xterm*background: #101010
+!*xterm*foreground: #00ff00
+!*xterm*cursorColor: #00ff00
+!*xterm*color0: #101010
+!*xterm*color1: #960050
+!*xterm*color2: #66aa11
+!*xterm*color3: #c47f2c
+!*xterm*color4: #30309b
+!*xterm*color5: #7e40a5
+!*xterm*color6: #3579a8
+!*xterm*color7: #9999aa
+!*xterm*color8: #303030
+!*xterm*color9: #ff0090
+!*xterm*color10: #80ff00
+!*xterm*color11: #ffba68
+!*xterm*color12: #5f5fee
+!*xterm*color13: #bb88dd
+!*xterm*color14: #4eb4fa
+!*xterm*color15: #d0d0d0
 
 
 
@@ -35,40 +35,68 @@ urxvt*font: xft:DejaVu Sans Mono:size=8
 
 *.scrollBar: false
 
-! special
+! GREEN
 !*.foreground:   #4def24
-*.foreground:   #FFFFFF
-*.background:   #000000
-*.cursorColor:  #f8f8f2
+!urxvt.foreground:   #00FF00
+! --- ~/.Xresources ------------------------------------------------------------
+! ------------------------------------------------------------------------------
+! --- generated with 4bit Terminal Color Scheme Designer -----------------------
+! ------------------------------------------------------------------------------
+! --- http://ciembor.github.com/4bit -------------------------------------------
+! ------------------------------------------------------------------------------
+
+! --- special colors ---
+
+!*background: #002ec6
+*background:   #000000
+*foreground: #d2d8de
+
+! --- standard colors ---
 
 ! black
-*.color0:       #272822
-*.color8:       #75715e
+*color0: #060c12
+
+! bright_black
+*color8: #6c7278
 
 ! red
-*.color1:       #f92672
-*.color9:       #f92672
+*color1: #ff0a84
+
+! bright_red
+*color9: #ffffff
 
 ! green
-*.color2:       #a6e22e
-*.color10:      #a6e22e
+*color2: #84ff0a
+
+! bright_green
+*color10: #ffffff
 
 ! yellow
-*.color3:		#ff9e26
-*.color11:      #ff9e26
+*color3: #ff840a
+
+! bright_yellow
+*color11: #ffffff
 
 ! blue
-*.color4:       #2e40fb
-*.color12:      #2e40fb
+*color4: #0a84ff
+
+! bright_blue
+*color12: #90e80e
 
 ! magenta
-*.color5:       #ae81ff
-*.color13:      #ae81ff
+*color5: #840aff
+
+! bright_magenta
+*color13: #ffffff
 
 ! cyan
-*.color6:       #a1a1ef
-*.color14:      #a1a1ef
+*color6: #0aff84
+
+! bright_cyan
+*color14: #ffffff
 
 ! white
-*.color7:       #f8f8f2
-*.color15:      #f9f8f5
+*color7: #a8adb3
+
+! bright_white
+*color15: #d2d8de

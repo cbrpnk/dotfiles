@@ -17,13 +17,20 @@ runtime! archlinux.vim
 filetype plugin on
 
 syntax on
+set  t_Co=256
+set background=dark
 
 "colorscheme 256-jungle
-colorscheme molokai
-highlight LineNr term=bold cterm=none ctermfg=DarkGrey ctermbg=none gui=none guifg=DarkGrey guibg=none
+colorscheme black_angus
+"colorscheme bluechia
+"highlight LineNr term=bold cterm=none ctermfg=#123123 ctermbg=none gui=none guifg=#123123 guibg=none
+"colorscheme deepsea
+
 
 set tabstop=4
+set shiftwidth=4
 set number
+set relativenumber
 set incsearch
 set hlsearch
 set ignorecase
@@ -32,6 +39,8 @@ set ffs=unix,dos,mac
 set nobackup
 set nowb
 set noswapfile
+
+imap jk <ESC>
 
 " Unmap the arrow keys
 no <down> <Nop>
