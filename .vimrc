@@ -20,17 +20,17 @@ syntax on
 set  t_Co=256
 set background=dark
 
+colorscheme delek
 "colorscheme 256-jungle
-colorscheme black_angus
+"colorscheme black_angus
 "colorscheme bluechia
 "highlight LineNr term=bold cterm=none ctermfg=#123123 ctermbg=none gui=none guifg=#123123 guibg=none
 "colorscheme deepsea
 
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=4 shiftwidth=4 expandtab
 set number
-set relativenumber
+"set relativenumber
 set incsearch
 set hlsearch
 set ignorecase
