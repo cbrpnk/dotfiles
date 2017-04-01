@@ -42,10 +42,18 @@ set noswapfile
 
 imap jk <ESC>
 
+" Splits
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Tabs
+nnoremap th :tabprev<CR>
+nnoremap tj :tablast<CR>
+nnoremap tk :tabfirst<CR>
+nnoremap tl :tabnext<CR>
+nnoremap tt :tabnew<CR>
 
 " Unmap the arrow keys
 no <down> <Nop>

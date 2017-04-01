@@ -27,6 +27,7 @@ alias vi='vim -p'
 alias vim='vim -p'
 alias wget='wget -c'
 alias zzz='lock && systemctl suspend'
+alias fuck="sudo !!"
 
 complete -cf sudo
 complete -cf man
