@@ -17,8 +17,7 @@ alias grep='grep -E --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias lock='i3lock -c 000000 -u'
-alias ls='ls --color=auto -p'
-alias mount="mount -o uid=$USER,gid=$USER"
+alias ls='ls --color=auto --group-directories-first -p'
 alias mv='mv -i'
 alias rm='rm -I'
 alias top='htop'
@@ -28,6 +27,7 @@ alias vim='vim -p'
 alias wget='wget -c'
 alias zzz='lock && systemctl suspend'
 alias fuck="sudo !!"
+alias headroom="/home/cbrpnk/headroom/build/headroom"
 
 complete -cf sudo
 complete -cf man
@@ -36,6 +36,6 @@ function vol {
 	amixer set Master ${1}0% > /dev/null 
 }
 
-function wttr {
+function weather {
 	curl wttr.in/${1}
 }
