@@ -25,9 +25,9 @@ alias torrent='transmission-remote'
 alias vi='vim -p'
 alias vim='vim -p'
 alias wget='wget -c'
-alias zzz='lock && systemctl suspend'
+#alias zzz='lock && systemctl suspend'
+alias zzz='lock && systemctl hybrid-sleep'
 alias fuck="sudo !!"
-alias headroom="/home/cbrpnk/headroom/build/headroom"
 
 complete -cf sudo
 complete -cf man
