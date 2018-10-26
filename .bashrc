@@ -10,7 +10,7 @@ set -o vi
 export PATH=$PATH:$HOME/bin
 export PS1='\e[0;32m[\u@\h \W]\$\e[m '
 export EDITOR=/bin/vim
-export GOPATH=/home/cbrpnk/mixpig/app
+export GOPATH=/home/cbrpnk/mixpig/servers/app
 
 umask 027
 
