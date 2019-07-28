@@ -28,7 +28,12 @@ colorscheme delek
 "colorscheme deepsea
 
 
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=4 shiftwidth=4 noexpandtab
+" Set tabs per langauge
+autocmd FileType c setlocal tabstop=4 shiftwidth=4 expandtab
+autocmd FileType cpp setlocal tabstop=4 shiftwidth=4 expandtab
+
+
 set number
 "set relativenumber
 set incsearch
